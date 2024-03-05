@@ -1,0 +1,69 @@
+/* Write your CSS here */
+.bg-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #161625;
+  padding: 10px 30px 10px 30px;
+}
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+.logo-style {
+  height: 45px;
+  width: 45px;
+  margin-right: 10px;
+}
+.logo-heading-style {
+  font-family: 'Roboto';
+  font-size: 30px;
+  font-weight: 700;
+  color: #2cc6c6;
+}
+.main-heading-style {
+  font-family: 'Roboto';
+  font-size: 30px;
+  font-weight: 700;
+  color: #cbd5e1;
+}
+.loader-main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 70vh;
+}
+.loader-style {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.failure-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 70vh;
+}
+.failure-sub-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  width: 500px;
+}
+.failure-image-style {
+  width: 80%;
+}
+.failure-heading-style {
+  font-family: 'Roboto';
+  font-size: 30px;
+  font-weight: bold;
+  color: #ffffff;
+}
+.success-container {
+  min-height: 70vh;
+  display: flex;
+  flex-direction: column;
+}
